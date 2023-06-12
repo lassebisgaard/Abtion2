@@ -1,0 +1,107 @@
+main {
+position: relative;
+height: 1362px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 32%;
+    z-index: 1; /* Sæt en lavere z-index end footer og header */
+}
+
+img.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    background-color: #D6E2E1;
+    position: relative;
+    z-index: 2;
+    background-color: transparent; /* Gennemsigtig baggrund */
+     padding: 20px; /* Juster padding efter behov */
+    }
+
+
+.grid-container > div {
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+}
+
+
+.box1 {
+    grid-row: 1;
+    grid-column: 1/ 5;
+}
+
+
+.box2 {
+    grid-row: 2;
+    grid-column: 1 / 5;
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column; /* Ændret til kolonne-layout */
+    justify-content: center; /* Centrer indholdet vandret */
+    align-items: center; /* Centrer indholdet lodret */
+    text-align: center; /* Centrer teksten */
+    padding-left: 432px;
+    padding-right: 432px;
+    padding-top: 40px;
+  }
+.box3 {
+    grid-row: 3;
+    grid-column: 2/2;
+    margin-right: 120px;
+    margin-left: 50px;
+}
+.box4 {
+    grid-row: 3;
+    grid-column: 3/3;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.box3,
+.box4 {
+    padding-top: 50px;
+}
+.box2 p,
+.box3 p,
+.box4 p {
+    font-size: 25px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.box1 h2,
+.box2 h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box3 p,
+.box4 p {
+    padding-bottom: 150px;
+}
+
+.knap-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
