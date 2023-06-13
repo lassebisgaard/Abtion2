@@ -35,7 +35,7 @@ h4 {
   color: #026817;
   margin-top: 0px;
   margin-bottom: 0px;
-  
+  text-align: center;
 }
 .box {
   width: 100%;
@@ -98,7 +98,8 @@ color: #026817;
     height: 167px;
     background: white;
     position: relative;
-    z-index: 2; /* Sæt en højere z-index end billederne */
+    z-index: 2; 
+    border-top: 2px solid #026817;
   }
 
 .footer-container {

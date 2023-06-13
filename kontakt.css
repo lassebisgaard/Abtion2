@@ -45,15 +45,17 @@ button {
   display: flex;
   justify-content: flex-end;
   margin-top: 10px;
-  margin-right: 160px;
+  margin-right: 9%;
 }
 
 #text {
-  width: 80%; 
+  width: 90%;
   height: 190px;
   resize: none;
   margin-top: 10px;
   margin-left: 2px;
+  font-size: 20px;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 
@@ -79,6 +81,7 @@ button {
     grid-column: 1 / 3;
     margin-left: 150px;
     overflow: auto; /* Tilføj overflow */
+    margin-bottom: 60px;
     
 }
 
