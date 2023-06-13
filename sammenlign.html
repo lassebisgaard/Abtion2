@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="sammenlign.css">
+    <script defer src="sammenlign.js"></script>
     <title>Sammenlign</title>
 </head>
 <body>
 
 <header>
-<a href="omgreenwheels.html"><h1>GreenWheels <img src="billeder/plante.png" class="blomst" alt="blomst"></h1></a>
+<a href="omgreenwheels.html"><h1>GreenWheels</h1><h4>Sammen går vi et skridt tættere på en grønnere fremtid</h4></a>
   <div class="box">
         <ul class="nav-menu">
+        <li><a href="omgreenwheels.html">Om GreenWheels</a></li>
         <li id="nav-farve"><a href="#">Sammenlign</a></li>
         <li><a href="ladestandere.html">Ladestandere</a></li>
-        <li><a href="omgreenwheels.html">Om GreenWheels</a></li>
         <li><a href="kontaktos.html">Kontakt os</a></li>
       </ul>
   </div>
@@ -28,68 +29,20 @@
   </div>
 <div class="box2">
   <div class="soegefunktion">
-    <input type="text" class="elbil" placeholder="Find elbil.." id="elbil">
-    <input type="text" class="bil" placeholder="Find bil.." id="bil">
+    <input type="text" class="elbil" placeholder="Find elbil..">
+    <img src="billeder/bil.png" class="elbilbillede" alt="elbil">
   </div>
 </div>
-<div class="box3">
-  <table class="tableofcontents">
-    <tr>
-      <th class="kolonne"></th>
-      <th>*bilmodel*</th>
-      <th>*bilmodel*</th>
-      <th class="difference">Difference</th>
-    </tr>
-    <tr>
-      <td>Brændstof</td>
-      <td id="brændstof1"></td>
-      <td id="brændstof2"></td>
-      <td id="brændstofDiff"></td>
-    </tr>
-    <tr>
-      <td>Pris</td>
-      <td id="pris1"></td>
-      <td id="pris2"></td>
-      <td id="prisDiff"></td>
-    </tr>
-    <tr>
-      <td>CO2 udslip</td>
-      <td id="co2udslip1"></td>
-      <td id="co2udslip2"></td>
-      <td id="co2udslipDiff"></td>
-    </tr>
-    <tr>
-      <td>Forbrug</td>
-      <td id="forbrug1"></td>
-      <td id="forbrug2"></td>
-      <td id="forbrugDiff"></td>
-    </tr>
-    <tr>
-      <td>0-100 km/t</td>
-      <td id="kmh1"></td>
-      <td id="kmh2"></td>
-      <td id="kmhDiff"></td>
-    </tr>
-    <tr>
-      <td>Tophastighed</td>
-      <td id="tophastighed1"></td>
-      <td id="tophastighed2"></td>
-      <td id="tophastighedDiff"></td>
-    </tr>
-    <tr>
-      <td>Rækkevidde</td>
-      <td id="rækkevidde1"></td>
-      <td id="rækkevidde2"></td>
-      <td id="rækkeviddeDiff"></td>
-    </tr>
-    <tr>
-      <td>Kapacitet</td>
-      <td id="kapacitet1"></td>
-      <td id="kapacitet2"></td>
-      <td id="kapacitetDiff"></td>
-    </tr>
-  </table>
+  <div class="box5">
+    <div class="soegefunktion">
+      <input type="text" class="bil" placeholder="Find bil..">
+      <img src="billeder/bil1.png" class="benzinbillede" alt="benzin bil">
+    </div>
 </div>
+<div class="box3">
+  <img id="sammenlignBillede" src="billeder/tabel.png" class="billede" alt="tabel">
+</div>
+
 <div class="box4">
     <h2>For at se de årlige besparelser af brændstofs-omkostninger, klik herunder</h2>
     <a href="graf.html"><img src="billeder/knap.png" class="" alt="knap til sammenlign"></a>

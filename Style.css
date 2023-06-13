@@ -9,11 +9,7 @@ header {
   position: relative;
   z-index: 2; /* Sæt en højere z-index end billederne */
 }
-.blomst{
-  width: 75px;
-  height: 75px;
-  vertical-align: middle;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -33,7 +29,14 @@ h1 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
+h4 {
+  font-size: 20px;
+  font-family: 'Georgia';
+  color: #026817;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
 .box {
   width: 100%;
   background-color: #A3BF9A;
@@ -174,4 +177,27 @@ color: #026817;
   height: 35px;
   width: 35px;
   margin: 20px 0 0 25px;
+}
+
+
+
+@media (max-width: 1180px) {
+
+  .item1 {
+    padding-left: 0px;
+  }
+
+  .item2 {
+    padding-left: 0px;
+  }
+  .item3 {
+    padding-left: 0px;
+    justify-self: center;
+  }
+  .item4 {
+    padding-left: 0px;
+  }
+
+
+
 }
