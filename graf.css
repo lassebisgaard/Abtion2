@@ -49,3 +49,17 @@
     grid-row: 3;
     grid-column: 1/5;
 }
+
+
+button {
+    width: 188px;
+    height: 46px;
+    background-color: #026817;
+    color: white;
+    cursor: pointer;
+    align-items: left;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 90px;
+
+}

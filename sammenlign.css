@@ -36,7 +36,7 @@
     grid-column: 1 / 5;
 }
 .box1 p {
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .box2 {
@@ -74,7 +74,7 @@
     border-radius: 25px;
     border-color:#000000;
     color: #000000;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 40px;
   }
 .soegefunktion {
@@ -83,8 +83,20 @@
     padding: 25px;
 }
 .soegefunktion input.elbil, .soegefunktion input.bil {
-    padding-left: 50px;
+    padding-left: 40px;
     background-repeat: no-repeat;
     background-position: 5% 50%;
 }
 
+button {
+    width: 188px;
+    height: 46px;
+    background-color: #026817;
+    color: white;
+    cursor: pointer;
+    align-items: left;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 90px;
+
+}
